@@ -64,7 +64,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "ssid"
 version = "0.1.0"
-source = "git+https://github.com/stpettersens/ssid.git#95523fe58d8769667ab81e260a74a22f742ea1c9"
+source = "git+https://github.com/stpettersens/ssid.git#678de41d151f19a74e6fbdacc469fa0f2011b32f"
 
 [[package]]
 name = "thread-id"
