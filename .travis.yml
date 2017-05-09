@@ -1,4 +1,12 @@
+sudo: required
+
 notifications:
   email: false
   
-language: rust #
+language: rust
+
+before_install:
+  sudo apt-get install rake
+  
+script:
+  rake
