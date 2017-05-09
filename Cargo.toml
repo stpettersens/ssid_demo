@@ -5,3 +5,4 @@ authors = ["Sam Saint-Pettersen <s.stpettersen+github@gmail.com>"]
 
 [dependencies]
 ssid = { git = "https://github.com/stpettersens/ssid.git" } 
+os_type = "0.6.0"
