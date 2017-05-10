@@ -9,7 +9,7 @@ install:
     - cargo --version
 
 test_script:
-    - dir
+    - netsh.cmd
     - rake
 
 build: off
