@@ -97,7 +97,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "ssid"
 version = "0.1.0"
-source = "git+https://github.com/stpettersens/ssid.git#59580f86f929afc60c9d76efb4c1a42b4f45056e"
+source = "git+https://github.com/stpettersens/ssid.git#ce6905866a23296962861366ae3f2444541b056c"
 dependencies = [
  "regex 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
