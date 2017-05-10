@@ -4,5 +4,5 @@ task :default => [:cleanlock] do
 end
 
 task :cleanlock do
-  #File.delete("Cargo.lock")
+  File.delete("Cargo.lock")
 end
