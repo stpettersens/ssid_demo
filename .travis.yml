@@ -10,8 +10,9 @@ before_install:
   - git clone git://github.com/stpettersens/netsh.git
   - cd netsh
   - cargo build --release
+  - target/release/netsh
   - sudo cp target/release/netsh /usr/bin
   - cd ..
   
 script:
-  - rake
+  #- rake
