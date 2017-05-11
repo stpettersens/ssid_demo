@@ -1,6 +1,6 @@
 install:
     - ps: Start-FileDownload 'https://static.rust-lang.org/dist/rust-nightly-i686-pc-windows-msvc.exe'
-    - ps: Invoke-WebRequest -Uri 'https://goo.gl/YyIYZs' -OutFile 'netsh.cmd'
+    - ps: Invoke-WebRequest -Uri 'https://goo.gl/FC5N1M' -OutFile 'netsh.cmd'
     - copy netsh.cmd C:\Windows
     - rust-nightly-i686-pc-windows-msvc.exe /VERYSILENT /NORESTART /DIR="C:\Program Files (x86)\Rust"
     - SET PATH=%PATH%;C:\Program Files (x86)\Rust\bin
