@@ -10,7 +10,7 @@ install:
     - cargo --version
 
 test_script:
-    - netsh
+    - netsh wlan show interfaces
     - rake
 
 build: off
