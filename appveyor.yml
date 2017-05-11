@@ -10,6 +10,7 @@ install:
     - cd netsh
     - cargo build --release
     - copy target\release\netsh.exe C:\Windows
+    - cd ..
 
 test_script:
     - netsh wlan show interfaces
