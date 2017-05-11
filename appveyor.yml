@@ -1,15 +1,15 @@
 install:
     - ps: Start-FileDownload 'https://static.rust-lang.org/dist/rust-nightly-i686-pc-windows-msvc.exe'
-    - git clone git://github.com/stpettersens/netsh.git
-    - cd netsh
-    - cargo release --bin
-    - copy target\release\netsh.exe C:\Windows
     - rust-nightly-i686-pc-windows-msvc.exe /VERYSILENT /NORESTART /DIR="C:\Program Files (x86)\Rust"
     - SET PATH=%PATH%;C:\Program Files (x86)\Rust\bin
     - ruby --version
     - rake --version
     - rustc --version
     - cargo --version
+    - git clone git://github.com/stpettersens/netsh.git
+    - cd netsh
+    - cargo release --bin
+    - copy target\release\netsh.exe C:\Windows
 
 test_script:
     - netsh wlan show interfaces
