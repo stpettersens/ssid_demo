@@ -8,7 +8,7 @@ install:
     - cargo --version
     - git clone git://github.com/stpettersens/netsh.git
     - cd netsh
-    - cargo release --bin
+    - cargo build release --bin
     - copy target\release\netsh.exe C:\Windows
 
 test_script:
