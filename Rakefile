@@ -1,4 +1,4 @@
-task :default  do
+task :default do
   sh "cargo build --release"
 end
 
